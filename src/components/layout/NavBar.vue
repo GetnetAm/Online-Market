@@ -6,6 +6,7 @@ import { useProductSearch } from '@/composables/useProductSearch'
 import { useClickOutside } from '@/composables/useClickOutside'
 import SearchResults from './SearchResults.vue'
 import type { Product } from '@/types'
+import { User } from 'lucide-vue-next'
 
 const router = useRouter()
 
@@ -66,8 +67,11 @@ function handleEscape(): void {
         </div>
 
         <div class="hidden md:flex items-center gap-5 text-sm">
-          <span class="cursor-pointer hover:text-accent transition-colors">Account</span>
+          <!-- <span class="cursor-pointer hover:text-accent transition-colors">Account</span> -->
           <!-- <span class="cursor-pointer hover:text-accent transition-colors">Cart (0)</span> -->
+           <button class="p-2 rounded-full hover:bg-gray-100 text-gray-700 transition">
+    <User class="w-6 h-6" />
+  </button>
         </div>
 
         <button class="md:hidden p-2" @click="drawerOpen = true" aria-label="Open menu">

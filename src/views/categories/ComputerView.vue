@@ -19,7 +19,7 @@ onMounted(async () => {
 
 <template>
   <div>
-    <div class="bg-navy text-white py-10 text-center">
+    <div class="bg-navy text-white py-5 text-center">
       <h1 class="font-display font-bold text-2xl md:text-3xl">Computer and Their Accsseries</h1>
     </div>
     <p v-if="loading" class="text-center text-muted py-16">Loading products...</p>
