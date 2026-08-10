@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* ============================================================
+   DESIGN TOKENS — matched to the reference moodboard:
+   deep navy base, royal blue mid-tones, vibrant orange CTAs,
+   soft light-blue background, white glass cards.
+   Referenced across all components as bg-navy, text-accent, etc.
+   ============================================================ */
+@theme {
+  --color-navy: #0f1c3f; /* header / footer / dark sections */
+  --color-royal: #1d3e8c; /* secondary brand blue */
+  --color-accent: #f2792a; /* orange — CTAs, prices, badges */
+  --color-bg-soft: #e9eff8; /* page background */
+  --color-card: #ffffff; /* card surfaces */
+  --color-ink: #14213d; /* body text */
+  --color-muted: #6b7a99; /* secondary text */
+
+  --font-display: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg-soft);
+  color: var(--color-ink);
+}
