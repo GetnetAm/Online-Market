@@ -69,7 +69,7 @@ function handleEscape(): void {
         <div class="hidden md:flex items-center gap-5 text-sm">
           <!-- <span class="cursor-pointer hover:text-accent transition-colors">Account</span> -->
           <!-- <span class="cursor-pointer hover:text-accent transition-colors">Cart (0)</span> -->
-           <button class="p-2 rounded-full hover:bg-gray-100 text-gray-700 transition">
+           <button class="p-2 rounded-full hover:bg-gray-100 text-orange-500 transition">
     <User class="w-6 h-6" />
   </button>
         </div>
