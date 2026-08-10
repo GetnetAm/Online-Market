@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
-    "lucide-vue-next": "^1.0.0",
+    "@lucide/vue": "^1.0.0",
+    
     "tailwindcss": "^4.3.3",
     "vue": "rc",
     "vue-router": "^5.2.0"
@@ -36,9 +37,7 @@
     "vitest": "^4.1.10",
     "vue-tsc": "^3.3.7"
   },
-  "engines": {
-    "node": "^22.18.0 || >=24.12.0"
-  },
+ 
   "overrides": {
     "vue": "rc",
     "@vue/compiler-core": "rc",
