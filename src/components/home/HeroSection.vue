@@ -55,7 +55,7 @@ withDefaults(defineProps<Props>(), {
 
       <!-- Visual column: layered product image collage using rounded glass cards -->
       <div class="w-full md:w-[55%] flex justify-center items-center">
-        <img src="../../../images/hero_1.png" alt="Featured product" class="rounded-2xl shadow-2xl object-cover w-full h-48 md:h-64 translate-y-4" loading="lazy" />
+        <img src="/images/hero_1.png" alt="Featured product" class="rounded-2xl shadow-2xl object-cover w-full h-48 md:h-64 translate-y-4" loading="lazy" />
       </div>
     </div>
   </section>
