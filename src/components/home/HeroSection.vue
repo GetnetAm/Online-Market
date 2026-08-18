@@ -45,10 +45,10 @@ withDefaults(defineProps<Props>(), {
             Browse Catalog
           </router-link>
           <a
-            href="tel:+251900000000"
+            href="tel:+25190000000"
             class="border border-white/30 hover:bg-white/10 font-display font-semibold text-sm px-6 py-3 rounded-full transition-all duration-300 text-center"
           >
-            Contact Seller
+            Contact Phone
           </a>
         </div>
       </div>
